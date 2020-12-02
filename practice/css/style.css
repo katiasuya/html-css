@@ -1,0 +1,44 @@
+#page-title {
+    text-align: center;
+}
+
+#pic-container {
+    width: 400px;
+  /*  height: 400px;*/
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 20px;
+    background: #000;
+}
+
+#image1 {
+    width: 100%;
+}
+
+#picture-css {
+
+    width: 900px;
+    height: 500px;
+    background-image: url(../images/image1.jpg);
+    margin: auto;
+} 
+
+#hovers {
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    background-image: url(../images/image2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+#hovers h2 {
+    text-align: center;
+}
+
+#hovers:hover {
+/* background-color:black; 
+    border: 5px solid red;*/
+    color: yellow;
+    opacity: 1;
+}
