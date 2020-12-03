@@ -29,26 +29,26 @@
 <h1 class="page-heading">Contact</h1>
 
 <div id="form">
-<form action="process.php">
+<form method="post" action="process.php">
 
 <p>  
   <label for="name">Name:</label>
-  <input type="text" name="name" placeholder="Your Name">
+  <input type="text" name="name" placeholder="Your Name" required>
 </p>
 
 <p>
   <label for="name">Email:</label>
-  <input type="text" name="email" placeholder="Your Email">
+  <input type="text" name="email" placeholder="Your Email" required>
 </p>
 
 <p>
   <label for="name">Subject:</label>
-  <input type="text" name="subject" placeholder="Your Subject">
+  <input type="text" name="subject" placeholder="Your Subject" required>
 </p>
 
  <p>
   <label for="name">Message:</label>
-  <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+  <textarea id="message" name="message" id="" cols="30" rows="10" required></textarea>
  </p>
 
  <p>
