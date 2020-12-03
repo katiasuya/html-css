@@ -10,14 +10,19 @@ body{
 }
 
 .container {
-width: 780px;
-margin: 0 auto;
-background: white;
+    width: 780px;
+    margin: 0 auto;
+    background: white;
+    box-shadow:01px 9px 13px 5px;
+}
+
+#contact .page-heading {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .header {
     padding: 45px 0 20px 40px;
-    border: 2px solid black;
 }
 
 .menu {
@@ -44,7 +49,7 @@ aside {
 
 h1 {
     margin: 0px;
-    color: #869843;
+    color:#405b7b;
     font-size: 24px;
     font-family: "Arial Narrow", "Myriad Pro";
     font-weight: normal;
@@ -71,7 +76,8 @@ h2{
 }
 
 #home-image img{
-width: 100%;
+    width: 70%;
+    opacity: 0.8;
 }
 
 footer {
@@ -89,8 +95,8 @@ footer a {
 }
 
 .separator {
-color:white;
-font-size: 11px;
+    color:white;
+    font-size: 11px;
 }
 
 /****************** About Page Styles ********************/
@@ -99,6 +105,7 @@ font-size: 11px;
     width: 50%;
     float: left;
     margin-bottom: 20px;
+    opacity: 0.8;
  }
 
  #about-page #profile-info {
@@ -112,4 +119,33 @@ font-size: 11px;
 
  }
 
+ /****************** Contact Page Styles ********************/
+
+#contact #form {
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow:01px 9px 13px 5px;
+    border-radius: 5px;
+}
+
+#contact #form input {
+    width:100%;
+    border-radius: 5px;
+    height: 20px;
+    background: rgb(192, 190, 190);
+}
+
+#contact #form #message {
+    width:100%;
+    border-radius: 5px;
+    background: rgb(192, 190, 190);
+}
+
+#contact #form #submit {
+    height: 30px;
+    background: #3b7687b5;
+}
+
     
+

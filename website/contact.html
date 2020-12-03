@@ -8,11 +8,11 @@
     <script src="js/scripts.js"></script>
 </head>
 
-<body>
+<body id="contact">
 
  <div class="container">
   <header class="header">
-    <a class="link-title" href="/">Minimalistic website</a>
+    <a class="link-title" href="index.html">Minimalistic website</a>
   </header>
 
   <nav class="menu">
@@ -26,11 +26,42 @@
   </aside>
 
 <article class="main">
+<h1 class="page-heading">Contact</h1>
+
+<div id="form">
+<form action="process.php">
+
+<p>  
+  <label for="name">Name:</label>
+  <input type="text" name="name" placeholder="Your Name">
+</p>
+
+<p>
+  <label for="name">Email:</label>
+  <input type="text" name="email" placeholder="Your Email">
+</p>
+
+<p>
+  <label for="name">Subject:</label>
+  <input type="text" name="subject" placeholder="Your Subject">
+</p>
+
+ <p>
+  <label for="name">Message:</label>
+  <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+ </p>
+
+ <p>
+   <input id="submit" type="submit" name="submit" value="Send Message">
+ </p>
+ 
+</form></div>
+
 </article>
 
 <footer>
-    &copy; 2030 Minimalistic Website &nbsp; Designed by Katia Suya
-    <a href="www.edwindiaz.com">Edwin Diaz</a>
+  &copy; 2030 Minimalistic Website &nbsp;<span class="separator">|</span>
+  Designed by <a href="www.edwindiaz.com">Edwin Diaz</a>
 </footer>
 
 
